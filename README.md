@@ -1,1 +1,2 @@
 # usage-report-script
+Most system administrators would like to know the utilization of their systems by their users. On a Linux system, each user's login records are normally stored in the binary file /var/log/wtmp. The login records in this binary file can not be viewed or edited directly using normal Linux text commands like 'less', 'cat', etc. The 'last' command is often used to display the login records stored in this file in a human readable form. This script uses data retrieved from executing last command to generate a daily/weekly/monthly reports.
